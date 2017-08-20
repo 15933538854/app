@@ -177,6 +177,10 @@
   color: #ddd;
 }
 
+.header-c > .waikuang > .nav ul .five a {
+  color: #fff;
+}
+
 .header-c > .waikuang > .input-one input {
   float: left;
   width: 648px;
@@ -490,7 +494,7 @@
 
 .tg > .tg-a > .tg-e > .tg-f:hover img {
   transition: all .5s .1s;
-  transform: scaleY(1.1);
+  transform: scaleZ(1.5);
 }
 
 .tg > .tg-a > .tg-e > .tg-f > img {
@@ -501,9 +505,9 @@
 .tg > .tg-a > .tg-e > .tg-f > .tg-g {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 100px;
   width: 352px;
-  height: 262px;
+  height: 100px;
   line-height: 24px;
   text-align: center;
 }
@@ -795,4 +799,107 @@
   vertical-align: middle;
   margin-top: -3px;
   margin-right: 6px;
+}
+
+.gef-a {
+  position: absolute;
+  left: 1270px;
+  top: 0;
+  position: fixed;
+  width: 38px;
+  height: 100%;
+  background: #fff;
+}
+
+.gef-a > .gef-aa {
+  margin-top: 70px;
+}
+
+.gef-a > .gef-aa .gef-b {
+  width: 38px;
+  height: 38px;
+  line-height: 37px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.gef-a > .gef-aa .gef-b:hover {
+  background-color: #ddd;
+}
+
+.gef-a > .gef-aa .gef-b:hover .gef-ba {
+  opacity: 1;
+  transform: translateX(6px);
+  transition: all 0.3s ease;
+}
+
+.gef-a > .gef-aa .gef-b > .iconfont {
+  font-size: 20px;
+  color: #333;
+  border-bottom: 1px #ddd solid;
+  padding-bottom: 6px;
+}
+
+.gef-a > .gef-aa .gef-b > .gef-ba {
+  position: absolute;
+  left: -312px;
+  top: 70px;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  opacity: 0;
+}
+
+.gef-a > .gef-aa .gef-b > .gef-ba > .gef-b-a {
+  position: absolute;
+  left: 300px;
+  top: 16px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid #fff;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+}
+
+.gef-a > .gef-aa .gef-b > .gef-ba > .gef-bb > .gef-bc {
+  width: 260px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 6px;
+  border-bottom: 1px solid #ccc;
+  line-height: 40px;
+}
+
+.gef-a > .gef-aa .gef-b > .gef-ba > .gef-bb > .gef-bc > h2 {
+  float: left;
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+}
+
+.gef-a > .gef-aa .gef-b > .gef-ba > .gef-bb > .gef-bc > p {
+  font-size: 12px;
+  color: #ddd;
+}
+
+.gef-a > .gef-aa .gef-b > .gef-ba > .gef-bb > .gef {
+  width: 260px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+.gef-a > .gef-aa .gef-b > .gef-ba > .gef-bb > .gef-bd {
+  width: 260px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.gef-a > .gef-aa .gef-b > .gef-ba > .gef-bb > .gef-bd > h3 {
+  color: #ddd;
+  font-weight: bold;
+}
+
+.gef-a > .gef-aa .gef-b > .gef-ba > .gef-bb > .gef-bd > h2 a {
+  color: #666;
+  font-weight: bold;
 }
