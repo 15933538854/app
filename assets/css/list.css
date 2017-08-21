@@ -1,0 +1,478 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  background-color: #394043;
+}
+
+.header > .header-c {
+  width: 1150px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header > .header-c > .header-a {
+  float: left;
+  width: 570px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.header > .header-c > .header-a > ul li {
+  float: left;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.header > .header-c > .header-a > ul li:hover a {
+  color: #e0fff3;
+}
+
+.header > .header-c > .header-a > ul li > a {
+  color: #a9abab;
+}
+
+.header > .header-c > .header-b {
+  float: right;
+  width: 580px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.header > .header-c > .header-b > p {
+  float: right;
+  font-size: 12px;
+  padding-left: 22px;
+}
+
+.header > .header-c > .header-b > p > .iconfont {
+  font-size: 12px;
+  color: #e0fff3;
+  padding-right: 6px;
+}
+
+.header > .header-c > .header-b > p > a {
+  color: #e0fff3;
+}
+
+.header > .header-c > .header-b > ul li {
+  float: right;
+  color: #e0fff3;
+  font-size: 12px;
+}
+
+.header > .header-c > .header-b > ul li > a {
+  font-size: 12px;
+  color: #e0fff3;
+}
+
+.header > .header-c > .header-b > ul li > a > .iconfont {
+  font-size: 12px;
+}
+
+.logo {
+  width: 100%;
+  height: 156px;
+  background-color: #f5f5f6;
+}
+
+.logo > .logo-a {
+  width: 1150px;
+  height: 156px;
+  margin: 0 auto;
+}
+
+.logo > .logo-a > .logo-b {
+  float: left;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.logo > .logo-a > .logo-b > .logo-yes {
+  width: 96px;
+  height: 30px;
+  float: left;
+  background-image: url(../../assets/images/sprite.png);
+  background-repeat: no-repeat;
+  background-position: top -324px left 0px;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > ul li {
+  float: left;
+  margin-left: 30px;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > ul li > a {
+  color: #000;
+  font-size: 16px;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o {
+  position: relative;
+  float: right;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o:hover .erweima {
+  display: block;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o:hover .logo-p a {
+  text-decoration: underline;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o > .erweima {
+  position: absolute;
+  top: 24px;
+  left: -36px;
+  width: 200px;
+  height: 250px;
+  background-color: #fff;
+  display: none;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o > .erweima > .erweima-a {
+  width: 124px;
+  height: 124px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o > .erweima > .erweima-a > a img {
+  width: 124px;
+  height: 124px;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o > .erweima > .erweima-b {
+  width: 124px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o > .erweima > .erweima-b > h2 {
+  margin-top: 10px;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o > .erweima > .erweima-b > h2 a {
+  color: #333;
+  font-size: 12px;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o > .erweima > .erweima-b > p {
+  margin-top: -10px;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o > .erweima > .erweima-b > p a {
+  color: #ddd;
+  font-size: 12px;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o > .logo-p {
+  width: 115px;
+  height: 30px;
+  float: right;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o > .logo-p > a {
+  color: #323333;
+}
+
+.logo > .logo-a > .logo-b > .logo-ul > .tak-o > .logo-p > a > .iconfont {
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.logo > .logo-a .logo-input {
+  position: relative;
+  width: 710px;
+  height: 46px;
+  float: left;
+  margin-top: 24px;
+}
+
+.logo > .logo-a .logo-input > input {
+  width: 710px;
+  height: 46px;
+  border: none;
+  outline: none;
+  color: #ccc;
+}
+
+.logo > .logo-a .logo-input > button {
+  position: absolute;
+  left: 674px;
+  top: 15px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.logo > .logo-a .logo-input > button > .iconfont {
+  color: #ccc;
+}
+
+.wsk {
+  width: 1150px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #f5f5f6;
+  margin-top: 24px;
+}
+
+.wsk > .wsk-o {
+  width: 1100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.wsk > .wsk-o .wsk-a {
+  width: 1100px;
+  height: 60px;
+  border-bottom: 1px solid #aec4e6;
+  line-height: 59px;
+}
+
+.wsk > .wsk-o .wsk-a > h2 {
+  float: left;
+  font-size: 12px;
+  padding-top: 2px;
+  color: black;
+  margin-right: 20px;
+}
+
+.wsk > .wsk-o .wsk-a > p {
+  float: left;
+  margin-right: 20px;
+}
+
+.wsk > .wsk-o .wsk-a > p > a {
+  font-size: 12px;
+  color: #394043;
+}
+
+.wsk > .wsk-o .wsk-a > p > .iconfont {
+  font-weight: bold;
+  color: #394043;
+  padding-left: 6px;
+}
+
+.wsk > .wsk-o > .wsk-b {
+  width: 1100px;
+  height: 39px;
+  border-bottom: 1px solid #aec4e6;
+  line-height: 39px;
+}
+
+.wsk > .wsk-o > .wsk-b > ul {
+  width: 900px;
+  height: 39px;
+  padding-left: 50px;
+}
+
+.wsk > .wsk-o > .wsk-b > ul li {
+  float: left;
+  font-size: 12px;
+  margin-left: 16px;
+}
+
+.wsk > .wsk-o > .wsk-b > ul li > a {
+  color: #394043;
+}
+
+.wsk > .wsk-c {
+  width: 1100px;
+  height: 90px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.wsk > .wsk-c > .wsk-d {
+  width: 1100px;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.wsk > .wsk-c > .wsk-d > .wsk-h {
+  width: 1100px;
+  height: 14px;
+  line-height: 14px;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+.wsk > .wsk-c > .wsk-d > .wsk-h > h2 {
+  float: left;
+  font-size: 12px;
+  color: black;
+}
+
+.wsk > .wsk-c > .wsk-d > .wsk-h > .wsk-w {
+  float: left;
+  width: 90px;
+  height: 14px;
+  margin-left: 38px;
+  padding-right: 30px;
+}
+
+.wsk > .wsk-c > .wsk-d > .wsk-h > .wsk-w > p {
+  float: left;
+}
+
+.wsk > .wsk-c > .wsk-d > .wsk-h > .wsk-w > span {
+  color: #394043;
+  font-size: 13px;
+  padding-left: 4px;
+}
+
+.wsk > .wsk-c > .wsk-d > .wsk-h > h3 {
+  float: right;
+  font-size: 12px;
+}
+
+.wsk > .wsk-c > .wsk-d > .wsk-h > h3 > a {
+  color: #394043;
+}
+
+.wsk > .wsk-c > .wsk-d > .wsk-h > h3 > a span {
+  font-size: 13px;
+  padding-right: 4px;
+}
+
+.wsk > .gengduo {
+  width: 100px;
+  height: 15px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+
+.wsk > .gengduo > p a {
+  color: #394043;
+  font-size: 12px;
+}
+
+.for-a {
+  width: 1150px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.for-a > .for-b {
+  float: left;
+  width: 914px;
+  height: 48px;
+  border-bottom: 2px solid #00ae66;
+}
+
+.for-a > .for-b > ul li {
+  height: 50px;
+  float: left;
+  line-height: 50px;
+  margin-right: 20px;
+}
+
+.for-a > .for-b > ul li h3 a {
+  padding: 20px;
+  color: #394043;
+}
+
+.for-a > .for-f {
+  float: left;
+  width: 914px;
+  height: 48px;
+  line-height: 48px;
+}
+
+.for-a > .for-f > h3 {
+  float: left;
+  font-size: 12px;
+  color: #000;
+}
+
+.for-a > .for-f > .wsk-s {
+  float: left;
+  width: 100px;
+  height: 48px;
+  line-height: 48px;
+  margin-left: 20px;
+}
+
+.for-a > .for-f > .wsk-s > span {
+  font-size: 12px;
+  color: #394043;
+}
+
+.for-a > .for-d {
+  float: left;
+  width: 914px;
+  height: 47px;
+  line-height: 48px;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+.for-a > .for-d > h1 span {
+  color: #00ae66;
+}
+
+.for-a > .for-y {
+  float: left;
+  width: 914px;
+  height: 246px;
+  border-bottom: 1px solid #ccc;
+}
+
+.for-a > .for-y > .for-img {
+  float: left;
+  width: 232px;
+  height: 246px;
+  line-height: 246px;
+  margin-top: 36px;
+}
+
+.for-a > .for-y > .for-img > a img {
+  width: 232px;
+  height: 174px;
+  vertial-align: middle;
+}
+
+.for-a > .for-y > .for-text {
+  float: left;
+  margin-top: 36px;
+  margin-left: 40px;
+}
+
+.for-a > .for-y > .for-text > h1 a {
+  color: #394043;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.for-a > .for-y > .for-text > h1 span a {
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+}
+
+.for-a > .for-y > .for-text > h1 span {
+  background-color: blue;
+}
+
+.for-a > .for-y > .for-text > ul li {
+  float: left;
+  font-size: 12px;
+  color: #394043;
+  padding-left: 2px;
+}
+
+.for-a > .for-y > .for-text > ul li > a {
+  color: #394043;
+  font-size: 12px;
+}

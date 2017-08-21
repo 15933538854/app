@@ -1,0 +1,418 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #394043;
+    >.header-c {
+        width: 1150px;
+        height: 100%;
+        margin: 0 auto;
+        >.header-a {
+            float: left;
+            width: 570px;
+            height: 40px;
+            line-height: 40px;
+            >ul li {
+                float: left;
+                font-size: 12px;
+                padding-left: 20px;
+                &:hover a {
+                    color: #e0fff3;
+                }
+                >a {
+                    color: #a9abab;
+                }
+            }
+        }
+        >.header-b {
+            float: right;
+            width: 580px;
+            height: 40px;
+            line-height: 40px;
+            >p {
+                float: right;
+                font-size: 12px;
+                padding-left: 22px;
+                >.iconfont {
+                    font-size: 12px;
+                    color: #e0fff3;
+                    padding-right: 6px;
+                }
+                >a {
+                    color: #e0fff3;
+                }
+            }
+
+            >ul li {
+                float: right;
+                color: #e0fff3;
+                font-size: 12px;
+
+                >a {
+                    font-size: 12px;
+                    color: #e0fff3;
+                    >.iconfont {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.logo {
+    width: 100%;
+    height: 156px;
+    background-color: #f5f5f6;
+    >.logo-a {
+        width: 1150px;
+        height: 156px;
+        margin: 0 auto;
+        >.logo-b {
+            float: left;
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+
+            margin-top: 30px;
+            >.logo-yes {
+                width: 96px;
+                height: 30px;
+                float: left;
+                background: {
+                    image: url(../../assets/images/sprite.png);
+                    repeat: no-repeat;
+                    position: top -324px left 0px;
+                }
+            }
+            >.logo-ul {
+
+                >ul li {
+                    float: left;
+                    margin-left: 30px;
+                    >a {
+                        color: #000;
+                        font-size: 16px;
+                    }
+                }
+
+                >.tak-o {
+                    position: relative;
+                    float: right;
+
+                    &:hover .erweima {
+                        display: block;
+                    }
+                    &:hover .logo-p a {
+                        text-decoration: underline;
+                    }
+                    >.erweima {
+                        position: absolute;
+                        top: 24px;
+                        left: -36px;
+                        width: 200px;
+                        height: 250px;
+                        background-color: #fff;
+                        display: none;
+                        >.erweima-a {
+
+                            width: 124px;
+                            height: 124px;
+                            margin: 0 auto;
+                            padding-top: 30px;
+                            >a img {
+                                width: 124px;
+                                height: 124px;
+                            }
+                        }
+                        >.erweima-b {
+                            width: 124px;
+                            height: 50px;
+                            margin: 0 auto;
+                            text-align: center;
+                            >h2 {
+                                margin-top: 10px;
+                            }
+                            >h2 a {
+                                color: #333;
+                                font-size: 12px;
+                            }
+                            >p {
+                                margin-top: -10px;
+                            }
+                            >p a {
+                                color: #ddd;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    >.logo-p {
+                        width: 115px;
+                        height: 30px;
+                        float: right;
+
+                        >a {
+
+                            color: #323333;
+                            >.iconfont {
+                                padding-right: 10px;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .logo-input {
+            position: relative;
+            width: 710px;
+            height: 46px;
+            float: left;
+            margin-top: 24px;
+            >input {
+                width: 710px;
+                height: 46px;
+                border: none;
+                outline: none;
+                color: #ccc;
+            }
+            >button {
+                position: absolute;
+                left: 674px;
+                top: 15px;
+                border: none;
+                outline: none;
+                background-color: #fff;
+                >.iconfont {
+                    color: #ccc;
+                }
+            }
+        }
+    }
+}
+
+.wsk {
+    width: 1150px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #f5f5f6;
+    margin-top: 24px;
+    >.wsk-o {
+        width: 1100px;
+        height: 100px;
+        margin: 0 auto;
+        .wsk-a {
+            width: 1100px;
+            height: 60px;
+            border-bottom: 1px solid #aec4e6;
+            line-height: 59px;
+            >h2 {
+                float: left;
+                font-size: 12px;
+                padding-top: 2px;
+                color: black;
+                margin-right: 20px;
+            }
+            >p {
+                float: left;
+                margin-right: 20px;
+                >a {
+                    font-size: 12px;
+                    color: #394043;
+                }
+                >.iconfont {
+                    font-weight: bold;
+                    color: #394043;
+                    padding-left: 6px;
+                }
+            }
+        }
+        >.wsk-b {
+            width: 1100px;
+            height: 39px;
+            border-bottom: 1px solid #aec4e6;
+            line-height: 39px;
+            >ul {
+                width: 900px;
+                height: 39px;
+                padding-left: 50px;
+            }
+            >ul li {
+                float: left;
+                font-size: 12px;
+                margin-left: 16px;
+                >a {
+                    color: #394043;
+                }
+            }
+        }
+    }
+    >.wsk-c {
+        width: 1100px;
+        height: 90px;
+        margin: 0 auto;
+        overflow: hidden;
+        >.wsk-d {
+            width: 1100px;
+            height: 100%;
+            margin-top: 10px;
+            >.wsk-h {
+                width: 1100px;
+                height: 14px;
+                line-height: 14px;
+                margin-top: 14px;
+                margin-bottom: 6px;
+                >h2 {
+                    float: left;
+                    font-size: 12px;
+                    color: black;
+                }
+                >.wsk-w {
+                    float: left;
+                    width: 90px;
+                    height: 14px;
+                    margin-left: 38px;
+                    padding-right: 30px;
+                    >p {
+                        float: left;
+                    }
+                    >span {
+                        color: #394043;
+                        font-size: 13px;
+                        padding-left: 4px;
+                    }
+                }
+                >h3 {
+                    float: right;
+                    font-size: 12px;
+                    >a {
+                        color: #394043;
+                    }
+                    >a span {
+                        font-size: 13px;
+                        padding-right: 4px;
+                    }
+                }
+            }
+        }
+    }
+    >.gengduo {
+        width: 100px;
+        height: 15px;
+        margin: 0 auto;
+        margin-bottom: 14px;
+        >p a {
+            color: #394043;
+            font-size: 12px;
+        }
+    }
+}
+
+.for-a {
+    width: 1150px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    >.for-b {
+        float: left;
+        width: 914px;
+        height: 48px;
+        border-bottom: 2px solid #00ae66;
+        >ul li {
+            height: 50px; //background-color: #00ae66;
+            float: left;
+            line-height: 50px;
+            margin-right: 20px;
+        }
+        >ul li h3 a {
+            padding: 20px;
+            color: #394043;
+        }
+    }
+
+    >.for-f {
+        float: left;
+        width: 914px;
+        height: 48px;
+        line-height: 48px;
+        >h3 {
+            float: left;
+            font-size: 12px;
+            color: #000;
+        }
+        >.wsk-s {
+            float: left;
+            width: 100px;
+            height: 48px;
+            line-height: 48px;
+            margin-left: 20px;
+            >span {
+                font-size: 12px;
+                color: #394043;
+            }
+        }
+    }
+    >.for-d {
+        float: left;
+        width: 914px;
+        height: 47px;
+
+        line-height: 48px;
+        font-size: 24px;
+        font-weight: bold;
+        border-bottom: 1px solid #ccc;
+        >h1 span {
+            color: #00ae66;
+        }
+    }
+    >.for-y {
+        float: left;
+        width: 914px;
+        height: 246px;
+        border-bottom: 1px solid #ccc;
+        >.for-img {
+            float: left;
+            width: 232px;
+            height: 246px;
+            line-height: 246px;
+            margin-top: 36px;
+            >a img {
+                width: 232px;
+                height: 174px;
+                vertial-align: middle;
+            }
+        }
+        >.for-text {
+            float: left;
+            margin-top: 36px;
+            margin-left: 40px;
+            >h1 a {
+                color: #394043;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            >h1 span a {
+                color: #fff;
+                font-size: 12px;
+                padding: 2px 6px;
+            }
+            >h1 span {
+                background-color: blue;
+            }
+            >ul li {
+                float: left;
+                font-size: 12px;
+                color: #394043;
+                padding-left: 2px;
+                >a {
+                    color: #394043;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
