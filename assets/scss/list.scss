@@ -377,7 +377,7 @@
         >.for-img {
             float: left;
             width: 232px;
-            height: 246px;
+            height: 174px;
             line-height: 246px;
             margin-top: 36px;
             >a img {
@@ -388,12 +388,18 @@
         }
         >.for-text {
             float: left;
+            width: 300px;
+            height: 162px;
             margin-top: 36px;
             margin-left: 40px;
             >h1 a {
                 color: #394043;
                 font-weight: bold;
                 font-size: 14px;
+
+                &:hover {
+                    color: #00ae66;
+                }
             }
             >h1 span a {
                 color: #fff;
@@ -402,6 +408,10 @@
             }
             >h1 span {
                 background-color: blue;
+                font-weight: bold;
+            }
+            >ul {
+                margin-top: 22px;
             }
             >ul li {
                 float: left;
@@ -411,7 +421,63 @@
                 >a {
                     color: #394043;
                     font-size: 12px;
+                    font-weight: bold;
                 }
+            }
+            >p {
+                float: left;
+                margin-top: 22px;
+            }
+            >p a {
+                font-size: 12px;
+                color: #394043;
+                font-weight: bold;
+            }
+            >.wf-a span {
+                font-size: 12px;
+                color: #394043;
+                font-weight: bold;
+            }
+            >.wf-a {
+                float: left;
+                margin-top: 22px;
+                margin-right: 10px;
+                padding: 0 10px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background: #ccc;
+                font-weight: bold;
+            }
+            >.wf-b {
+                float: left;
+                margin-top: 22px;
+                height: 30px;
+                background: #ffece8;
+                line-height: 30px;
+            }
+            >.wf-b span {
+
+                font-size: 12px;
+                color: #db4c3f;
+                padding: 0 10px;
+                font-weight: bold;
+            }
+        }
+        >.qian {
+            float: right;
+            margin-top: 90px;
+            height: 150px;
+
+            text-align: center;
+            >p {
+                font-size: 12px;
+                color: #394043;
+                padding-top: 10px;
+            }
+            >h1 {
+                font-weight: bolder;
+                color: #db4c3f;
             }
         }
     }

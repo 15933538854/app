@@ -432,7 +432,7 @@
 .for-a > .for-y > .for-img {
   float: left;
   width: 232px;
-  height: 246px;
+  height: 174px;
   line-height: 246px;
   margin-top: 36px;
 }
@@ -445,6 +445,8 @@
 
 .for-a > .for-y > .for-text {
   float: left;
+  width: 300px;
+  height: 162px;
   margin-top: 36px;
   margin-left: 40px;
 }
@@ -455,6 +457,10 @@
   font-size: 14px;
 }
 
+.for-a > .for-y > .for-text > h1 a:hover {
+  color: #00ae66;
+}
+
 .for-a > .for-y > .for-text > h1 span a {
   color: #fff;
   font-size: 12px;
@@ -463,6 +469,11 @@
 
 .for-a > .for-y > .for-text > h1 span {
   background-color: blue;
+  font-weight: bold;
+}
+
+.for-a > .for-y > .for-text > ul {
+  margin-top: 22px;
 }
 
 .for-a > .for-y > .for-text > ul li {
@@ -475,4 +486,67 @@
 .for-a > .for-y > .for-text > ul li > a {
   color: #394043;
   font-size: 12px;
+  font-weight: bold;
+}
+
+.for-a > .for-y > .for-text > p {
+  float: left;
+  margin-top: 22px;
+}
+
+.for-a > .for-y > .for-text > p a {
+  font-size: 12px;
+  color: #394043;
+  font-weight: bold;
+}
+
+.for-a > .for-y > .for-text > .wf-a span {
+  font-size: 12px;
+  color: #394043;
+  font-weight: bold;
+}
+
+.for-a > .for-y > .for-text > .wf-a {
+  float: left;
+  margin-top: 22px;
+  margin-right: 10px;
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #ccc;
+  font-weight: bold;
+}
+
+.for-a > .for-y > .for-text > .wf-b {
+  float: left;
+  margin-top: 22px;
+  height: 30px;
+  background: #ffece8;
+  line-height: 30px;
+}
+
+.for-a > .for-y > .for-text > .wf-b span {
+  font-size: 12px;
+  color: #db4c3f;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.for-a > .for-y > .qian {
+  float: right;
+  margin-top: 90px;
+  height: 150px;
+  text-align: center;
+}
+
+.for-a > .for-y > .qian > p {
+  font-size: 12px;
+  color: #394043;
+  padding-top: 10px;
+}
+
+.for-a > .for-y > .qian > h1 {
+  font-weight: bolder;
+  color: #db4c3f;
 }
