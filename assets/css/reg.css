@@ -116,6 +116,7 @@
   position: absolute;
   left: 0;
   top: 0;
+  display: none;
 }
 
 .lunbo > ol {
@@ -379,7 +380,7 @@
 
 .gef-a {
   position: absolute;
-  left: 1270px;
+  left: 1320px;
   top: 0;
   position: fixed;
   width: 38px;
@@ -478,4 +479,8 @@
 .gef-a > .gef-aa .gef-b > .gef-ba > .gef-bb > .gef-bd > h2 a {
   color: #666;
   font-weight: bold;
+}
+
+.active {
+  border: 5px solid #fff;
 }

@@ -27,11 +27,12 @@ inp.onblur = function() {
 }
 
 $(function() {
-    var dex = $('.nav-h li').index()
-    dex.click(function() {
-
-
-
-
+    $('.nav li').click(function() {
+        var arr = [30, 84, 134, 182, 230];
+        var index = $(this).index();
+        $('.nav li a').eq(index).css("color", "#fff");
+        $('.sanjiao').animate({
+            left: arr[index] - 10
+        }, 200)
     })
 })
